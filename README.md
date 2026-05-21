@@ -4,6 +4,14 @@
 
 ## Installation
 
+Install from GitHub:
+
+```bash
+pip install git+https://github.com/nishantaMishra/devanagari-fonts.git
+```
+
+After the package is published to PyPI, it can be installed with:
+
 ```bash
 pip install devanagari-fonts
 ```
@@ -33,4 +41,3 @@ The package includes `.ttf` and `.otf` font files. Each font family keeps its bu
 ## License
 
 The Python package code is distributed under the MIT License. Bundled fonts are distributed under their own upstream licenses, included beside each font family.
-
