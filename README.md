@@ -30,6 +30,81 @@ print(path)
 
 The package includes `.ttf` and `.otf` font files. Each font family keeps its bundled upstream license file alongside the font files under `devanagari_fonts/fonts/`.
 
+## Available Fonts
+
+<details>
+<summary>Show bundled font families</summary>
+
+- Akshar
+- Alkatra
+- Amiko
+- Amita
+- Anek Devanagari
+- Annapurna SIL
+- Arya
+- Asar
+- Bakbak One
+- Baloo 2
+- Bhavuka
+- Biryani
+- Cambay
+- Dekko
+- Eczar
+- Ek Mukta
+- Gajraj One
+- Glegoo
+- Gotu
+- Halant
+- Hind
+- IBM Plex Sans Devanagari
+- Inknut Antiqua
+- Jaini
+- Jaini Purva
+- Jaldi
+- Kadwa
+- Kalam
+- Karma
+- Khand
+- Khula
+- Kurale
+- Laila
+- Lohit Devanagari
+- Martel
+- Martel Sans
+- Matangi
+- Modak
+- Mukta
+- Noto Sans
+- Noto Sans Devanagari
+- Noto Sans Devanagari UI
+- Noto Serif Devanagari
+- Palanquin
+- Palanquin Dark
+- Playpen Sans Deva
+- Poppins
+- Pragati Narrow
+- Rajdhani
+- Ranga
+- Rhodium Libre
+- Rozha One
+- Sahitya
+- Sarala
+- Sarpanch
+- Shobhika-1.05
+- Sitara
+- Sumana
+- Sura
+- Teko
+- Tillana
+- Tiro Devanagari Hindi
+- Tiro Devanagari Marathi
+- Tiro Devanagari Sanskrit
+- Vesper Libre
+- Yantramanav
+- Yatra One
+
+</details>
+
 ## API
 
 - `families()`: return available font family names.
