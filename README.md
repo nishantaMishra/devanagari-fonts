@@ -1,6 +1,8 @@
 # devanagari-fonts
 
-`devanagari-fonts` bundles Devanagari font files and exposes a small Python API for listing families, locating files, and passing font paths to libraries such as Pillow, Matplotlib, ReportLab, or WeasyPrint.
+`devanagari-fonts` provides Devanagari font discovery, a small Python API for locating installed font files, and a command-line installer for downloading font families on demand.
+
+The PyPI package is intentionally small. It includes the Python API, command-line tool, font registry metadata, and the Shobhika font family as a default bundled font. Other font families are downloaded into a user cache directory when requested.
 
 ## Installation
 
@@ -18,22 +20,54 @@ pip install git+https://github.com/nishantaMishra/devanagari-fonts.git
 
 ## Usage
 
-```python
-from devanagari_fonts import families, font_path, fonts
+List available bundles and font families:
 
-print(families())
+```bash
+devanagari-fonts list
+```
+
+Install a bundle:
+
+```bash
+devanagari-fonts install core
+devanagari-fonts install noto
+devanagari-fonts install display
+devanagari-fonts install full
+```
+
+Install a single font family:
+
+```bash
+devanagari-fonts install hind
+devanagari-fonts install akshar
+devanagari-fonts install noto-sans-devanagari
+```
+
+Use installed fonts from Python:
+
+```python
+from devanagari_fonts import available_families, families, font_path, fonts
+
+print(available_families())  # all registry fonts
+print(families())            # installed fonts
 print(fonts("Hind"))
 
 path = font_path("Hind", style="Regular")
 print(path)
 ```
 
-The package includes `.ttf` and `.otf` font files. Each font family keeps its bundled upstream license file alongside the font files under `devanagari_fonts/fonts/`.
+Downloaded fonts are stored in the user cache directory. To see the active cache directory:
+
+```bash
+devanagari-fonts cache-dir
+```
+
+Each font family keeps its upstream license file alongside the downloaded font files.
 
 ## Available Fonts
 
 <details>
-<summary>Show bundled font families</summary>
+<summary>Show registry font families</summary>
 
 - Akshar
 - Alkatra
@@ -107,12 +141,91 @@ The package includes `.ttf` and `.otf` font files. Each font family keeps its bu
 
 ## API
 
-- `families()`: return available font family names.
-- `fonts(family=None)`: return `Font` records for all fonts, or for one family.
-- `font_files(family=None)`: return filesystem paths for available font files.
-- `get_font(family, name=None, style=None)`: return a single matching `Font`.
-- `font_path(family, name=None, style=None)`: return the filesystem path for a single matching font.
+- `available_families()`: return all registry font family names.
+- `families()`: return installed font family names.
+- `fonts(family=None)`: return installed `Font` records for all fonts, or for one family.
+- `font_files(family=None)`: return filesystem paths for installed font files.
+- `get_font(family, name=None, style=None)`: return a single matching installed `Font`.
+- `font_path(family, name=None, style=None)`: return the filesystem path for a single matching installed font.
+- `cache_dir()`: return the font download cache directory.
 
 ## License
 
 The Python package code is distributed under the MIT License. Bundled fonts are distributed under their own upstream licenses, included beside each font family.
+
+
+
+
+
+
+
+
+
+
+============================================
+
+You can keep one PyPI package called devanagari-fonts, but make the PyPI package itself small. Then users can download font bundles from the command line when needed.
+
+The design would be:
+
+pip install devanagari-fonts
+
+installs only:
+
+Python API
+command-line tool
+font registry metadata
+Shobhika default font
+
+Then the user can run:
+
+devanagari-fonts list
+devanagari-fonts install noto-sans
+devanagari-fonts install noto-serif
+devanagari-fonts install core
+devanagari-fonts install full
+
+The downloaded fonts would go into a user cache directory, not inside the installed Python package.
+
+Recommended command-line behaviour
+
+Something like this would be ideal:
+
+devanagari-fonts list
+
+Output:
+
+Available bundles:
+
+core
+  Noto Sans Devanagari
+  Noto Serif Devanagari
+  Lohit Devanagari
+
+noto
+  Noto Sans Devanagari
+  Noto Serif Devanagari
+  Noto Sans Devanagari UI
+
+display
+  Kalam
+  Baloo 2
+  Modak
+  Yatra One
+
+full
+  All available open-source Devanagari font families
+
+Then:
+
+devanagari-fonts install core
+
+or:
+
+devanagari-fonts install noto-sans-devanagari
+
+or:
+
+devanagari-fonts install full
+
+I also want that user must be able to install any particular font family, e.g. `devanagari-fonts install hind` or `devanagari-fonts install akshar`. They can get the name of the font family from the `devanagari-fonts list` command.

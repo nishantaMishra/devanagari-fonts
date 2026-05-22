@@ -2,24 +2,26 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from functools import lru_cache
-from importlib import metadata, resources
+from importlib import resources
+import json
 import os
 from pathlib import Path
 import shutil
-from typing import Iterable
+from typing import Any
 
 FONT_EXTENSIONS = (".ttf", ".otf")
 
 
 @dataclass(frozen=True, order=True)
 class Font:
-    """A bundled font file."""
+    """An installed Devanagari font file."""
 
     family: str
     filename: str
     relative_path: str
     format: str
     variable: bool
+    source: str
 
     @property
     def name(self) -> str:
@@ -29,21 +31,29 @@ class Font:
 
     @property
     def path(self) -> Path:
-        """A filesystem path to the font file."""
+        """A filesystem path to the installed font file."""
 
-        return _font_path_from_relative(self.relative_path)
+        if self.source == "bundled":
+            return _bundled_font_path(self.relative_path)
+        return _cache_dir() / self.relative_path
 
 
 def families() -> tuple[str, ...]:
-    """Return the bundled font family names."""
+    """Return installed font family names."""
 
     return tuple(sorted({font.family for font in fonts()}))
 
 
-def fonts(family: str | None = None) -> tuple[Font, ...]:
-    """Return bundled font records, optionally filtered by family."""
+def available_families() -> tuple[str, ...]:
+    """Return all font family names known to the registry."""
 
-    all_fonts = _all_fonts()
+    return tuple(entry["family"] for entry in _registry()["families"])
+
+
+def fonts(family: str | None = None) -> tuple[Font, ...]:
+    """Return installed font records, optionally filtered by family."""
+
+    all_fonts = _installed_fonts()
     if family is None:
         return all_fonts
 
@@ -52,7 +62,7 @@ def fonts(family: str | None = None) -> tuple[Font, ...]:
 
 
 def font_files(family: str | None = None) -> tuple[Path, ...]:
-    """Return filesystem paths to bundled font files."""
+    """Return filesystem paths to installed font files."""
 
     return tuple(font.path for font in fonts(family))
 
@@ -63,11 +73,14 @@ def get_font(
     name: str | None = None,
     style: str | None = None,
 ) -> Font:
-    """Return one bundled font matching a family and optional name or style."""
+    """Return one installed font matching a family and optional name or style."""
 
     matches = list(fonts(family))
     if not matches:
-        raise LookupError(f"No bundled Devanagari font family named {family!r}.")
+        raise LookupError(
+            f"No installed Devanagari font family named {family!r}. "
+            f"Install it with: devanagari-fonts install {_slugify(family)}"
+        )
 
     if name is not None:
         normalized_name = _normalize(name)
@@ -97,7 +110,7 @@ def get_font(
             )
             if part
         )
-        raise LookupError(f"No bundled Devanagari font matched {criteria}.")
+        raise LookupError(f"No installed Devanagari font matched {criteria}.")
 
     regular = [font for font in matches if "regular" in _normalize(font.filename)]
     if len(regular) == 1:
@@ -117,44 +130,72 @@ def font_path(
     name: str | None = None,
     style: str | None = None,
 ) -> Path:
-    """Return a filesystem path to one bundled font."""
+    """Return a filesystem path to one installed font."""
 
     return get_font(family, name=name, style=style).path
 
 
-def _iter_fonts() -> Iterable[Font]:
-    root = _fonts_root()
-    for family_dir in root.iterdir():
-        if not family_dir.is_dir():
-            continue
+def cache_dir() -> Path:
+    """Return the user cache directory used for downloaded fonts."""
 
-        for item in family_dir.iterdir():
-            if not item.is_file():
-                continue
-
-            suffix = Path(item.name).suffix.lower()
-            if suffix not in FONT_EXTENSIONS:
-                continue
-
-            yield Font(
-                family=family_dir.name,
-                filename=item.name,
-                relative_path=f"fonts/{family_dir.name}/{item.name}",
-                format=suffix.lstrip("."),
-                variable="[" in item.name and "]" in item.name,
-            )
+    return _cache_dir()
 
 
 @lru_cache(maxsize=1)
-def _all_fonts() -> tuple[Font, ...]:
-    return tuple(sorted(_iter_fonts()))
+def _installed_fonts() -> tuple[Font, ...]:
+    return tuple(sorted([*_bundled_fonts(), *_cached_fonts()]))
 
 
-def _fonts_root() -> resources.abc.Traversable:
-    return resources.files("devanagari_fonts").joinpath("fonts")
+def _bundled_fonts() -> list[Font]:
+    fonts: list[Font] = []
+    root = resources.files("devanagari_fonts").joinpath("fonts")
+    for family in _registry()["bundled_families"]:
+        family_dir = root.joinpath(family)
+        if not family_dir.is_dir():
+            continue
+        for item in family_dir.iterdir():
+            suffix = Path(item.name).suffix.lower()
+            if not item.is_file() or suffix not in FONT_EXTENSIONS:
+                continue
+            fonts.append(
+                Font(
+                    family=family,
+                    filename=item.name,
+                    relative_path=f"fonts/{family}/{item.name}",
+                    format=suffix.lstrip("."),
+                    variable="[" in item.name and "]" in item.name,
+                    source="bundled",
+                )
+            )
+    return fonts
 
 
-def _font_path_from_relative(relative_path: str) -> Path:
+def _cached_fonts() -> list[Font]:
+    fonts: list[Font] = []
+    root = _cache_dir()
+    for entry in _registry()["families"]:
+        family = entry["family"]
+        for file_info in entry["files"]:
+            if file_info["kind"] != "font":
+                continue
+            path = root / file_info["relative_path"]
+            if not path.exists():
+                continue
+            suffix = path.suffix.lower()
+            fonts.append(
+                Font(
+                    family=family,
+                    filename=path.name,
+                    relative_path=file_info["relative_path"],
+                    format=suffix.lstrip("."),
+                    variable="[" in path.name and "]" in path.name,
+                    source="cache",
+                )
+            )
+    return fonts
+
+
+def _bundled_font_path(relative_path: str) -> Path:
     resource = resources.files("devanagari_fonts").joinpath(relative_path)
     direct_path = Path(str(resource))
     if direct_path.exists():
@@ -169,17 +210,25 @@ def _font_path_from_relative(relative_path: str) -> Path:
 
 
 def _cache_dir() -> Path:
-    base = os.environ.get("XDG_CACHE_HOME")
+    base = os.environ.get("DEVANAGARI_FONTS_CACHE") or os.environ.get("XDG_CACHE_HOME")
     root = Path(base).expanduser() if base else Path.home() / ".cache"
-    return root / "devanagari-fonts" / _package_version()
+    if base and os.environ.get("DEVANAGARI_FONTS_CACHE"):
+        return root
+    return root / "devanagari-fonts"
 
 
-def _package_version() -> str:
-    try:
-        return metadata.version("devanagari-fonts")
-    except metadata.PackageNotFoundError:
-        return "editable"
+@lru_cache(maxsize=1)
+def _registry() -> dict[str, Any]:
+    data = resources.files("devanagari_fonts").joinpath("registry.json").read_text()
+    return json.loads(data)
 
 
 def _normalize(value: str) -> str:
     return "".join(ch for ch in value.casefold() if ch.isalnum())
+
+
+def _slugify(value: str) -> str:
+    slug = "".join(ch if ch.isalnum() else "-" for ch in value.casefold()).strip("-")
+    while "--" in slug:
+        slug = slug.replace("--", "-")
+    return slug

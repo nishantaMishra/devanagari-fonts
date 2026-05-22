@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include src/devanagari_fonts/registry.json
+include src/devanagari_fonts/py.typed
+recursive-include src/devanagari_fonts/fonts/Shobhika-1.05 *
+recursive-exclude src/devanagari_fonts/fonts *
+recursive-include src/devanagari_fonts/fonts/Shobhika-1.05 *

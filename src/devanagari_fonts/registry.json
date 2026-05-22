@@ -1,0 +1,2746 @@
+{
+  "schema_version": 1,
+  "source": "github-raw-main",
+  "bundled_families": [
+    "Shobhika-1.05"
+  ],
+  "bundles": {
+    "core": [
+      "Noto Sans Devanagari",
+      "Noto Serif Devanagari",
+      "Lohit Devanagari"
+    ],
+    "noto": [
+      "Noto Sans Devanagari",
+      "Noto Serif Devanagari",
+      "Noto Sans Devanagari UI"
+    ],
+    "display": [
+      "Kalam",
+      "Baloo 2",
+      "Modak",
+      "Yatra One"
+    ],
+    "full": [
+      "Akshar",
+      "Alkatra",
+      "Amiko",
+      "Amita",
+      "Anek Devanagari",
+      "Annapurna SIL",
+      "Arya",
+      "Asar",
+      "Bakbak One",
+      "Baloo 2",
+      "Bhavuka",
+      "Biryani",
+      "Cambay",
+      "Dekko",
+      "Eczar",
+      "Ek Mukta",
+      "Gajraj One",
+      "Glegoo",
+      "Gotu",
+      "Halant",
+      "Hind",
+      "IBM Plex Sans Devanagari",
+      "Inknut Antiqua",
+      "Jaini",
+      "Jaini Purva",
+      "Jaldi",
+      "Kadwa",
+      "Kalam",
+      "Karma",
+      "Khand",
+      "Khula",
+      "Kurale",
+      "Laila",
+      "Lohit Devanagari",
+      "Martel",
+      "Martel Sans",
+      "Matangi",
+      "Modak",
+      "Mukta",
+      "Noto Sans",
+      "Noto Sans Devanagari",
+      "Noto Sans Devanagari UI",
+      "Noto Serif Devanagari",
+      "Palanquin",
+      "Palanquin Dark",
+      "Playpen Sans Deva",
+      "Poppins",
+      "Pragati Narrow",
+      "Rajdhani",
+      "Ranga",
+      "Rhodium Libre",
+      "Rozha One",
+      "Sahitya",
+      "Sarala",
+      "Sarpanch",
+      "Shobhika-1.05",
+      "Sitara",
+      "Sumana",
+      "Sura",
+      "Teko",
+      "Tillana",
+      "Tiro Devanagari Hindi",
+      "Tiro Devanagari Marathi",
+      "Tiro Devanagari Sanskrit",
+      "Vesper Libre",
+      "Yantramanav",
+      "Yatra One"
+    ]
+  },
+  "families": [
+    {
+      "family": "Akshar",
+      "slug": "akshar",
+      "files": [
+        {
+          "filename": "Akshar[wght].ttf",
+          "relative_path": "Akshar/Akshar[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Akshar/Akshar%5Bwght%5D.ttf",
+          "sha256": "5288f970076f57f158dba767f44aec8f8e852920f1a3cc20a3268420ad9ec251",
+          "size": 237016,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Akshar/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Akshar/OFL.txt",
+          "sha256": "f177d40332e5a3f1b76d1d19821102173f30aab9dc58329db20ed1ab42ac7ec1",
+          "size": 4485,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Alkatra",
+      "slug": "alkatra",
+      "files": [
+        {
+          "filename": "Alkatra[wght].ttf",
+          "relative_path": "Alkatra/Alkatra[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Alkatra/Alkatra%5Bwght%5D.ttf",
+          "sha256": "af6d39e8085eda5db66b19100571709bd41c41938400f2c365dadde86dd28466",
+          "size": 949464,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Alkatra/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Alkatra/OFL.txt",
+          "sha256": "5985658cc7672eb25b95427a485ce922402908c90d9feaca2a88930cd98e54d9",
+          "size": 4480,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Amiko",
+      "slug": "amiko",
+      "files": [
+        {
+          "filename": "Amiko-Bold.ttf",
+          "relative_path": "Amiko/Amiko-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amiko/Amiko-Bold.ttf",
+          "sha256": "70d2a2e9eeee950c666f5c94836e9fcd3fd3297d1975c952db2518d0e5ebc9ef",
+          "size": 196396,
+          "kind": "font"
+        },
+        {
+          "filename": "Amiko-Regular.ttf",
+          "relative_path": "Amiko/Amiko-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amiko/Amiko-Regular.ttf",
+          "sha256": "402d4d96034762fee68518fd95b778cf6a9d70cab838fa1a817cb783d39639a4",
+          "size": 192880,
+          "kind": "font"
+        },
+        {
+          "filename": "Amiko-SemiBold.ttf",
+          "relative_path": "Amiko/Amiko-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amiko/Amiko-SemiBold.ttf",
+          "sha256": "ddfc0e53ccdc4f13cac4599f97d5775be74b2e1e0773cf1bdce71483a476fbf6",
+          "size": 194424,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Amiko/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amiko/OFL.txt",
+          "sha256": "bd8323cd1d2b6bbdfbbf99cb41ec1156d0352ced170de4aa3a96d95e6e20bf5b",
+          "size": 4452,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Amita",
+      "slug": "amita",
+      "files": [
+        {
+          "filename": "Amita-Bold.ttf",
+          "relative_path": "Amita/Amita-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amita/Amita-Bold.ttf",
+          "sha256": "2e3db0a183495cc55b81346311bc2c22dde0e4b6599a9f8a7469b5feffdbf0e8",
+          "size": 221116,
+          "kind": "font"
+        },
+        {
+          "filename": "Amita-Regular.ttf",
+          "relative_path": "Amita/Amita-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amita/Amita-Regular.ttf",
+          "sha256": "551369ea6a8caeaa9d2dc31719564ba2379a445d16e6994bc7adbf9446a2b63d",
+          "size": 215672,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Amita/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Amita/OFL.txt",
+          "sha256": "0dd8e32457e18621737b593ab0fac49905cd948a078ed0e64f4890df714a1dfb",
+          "size": 4534,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Anek Devanagari",
+      "slug": "anek-devanagari",
+      "files": [
+        {
+          "filename": "AnekDevanagari[wdth,wght].ttf",
+          "relative_path": "Anek Devanagari/AnekDevanagari[wdth,wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Anek%20Devanagari/AnekDevanagari%5Bwdth%2Cwght%5D.ttf",
+          "sha256": "b88cf0ff5705599b2f16fce4ba9ce2029f76106dd24f0419976c417d89f20888",
+          "size": 2190532,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Anek Devanagari/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Anek%20Devanagari/OFL.txt",
+          "sha256": "de62be758bba267e653a5f457dfebb4680957e2c343eb3e7de15aff4746bed05",
+          "size": 4379,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Annapurna SIL",
+      "slug": "annapurna-sil",
+      "files": [
+        {
+          "filename": "AnnapurnaSIL-Bold.ttf",
+          "relative_path": "Annapurna SIL/AnnapurnaSIL-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Annapurna%20SIL/AnnapurnaSIL-Bold.ttf",
+          "sha256": "c73a534c69802dfb8b8da42e9544ae479edd6bcfec51f42c9aa5c46310a7cecf",
+          "size": 524904,
+          "kind": "font"
+        },
+        {
+          "filename": "AnnapurnaSIL-Regular.ttf",
+          "relative_path": "Annapurna SIL/AnnapurnaSIL-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Annapurna%20SIL/AnnapurnaSIL-Regular.ttf",
+          "sha256": "f5f80335993c983ebf811b27fe07604b01d207f7c3b66c8798c3d721d164088c",
+          "size": 530928,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Annapurna SIL/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Annapurna%20SIL/OFL.txt",
+          "sha256": "375c30ade2053858aebba9fbcb38bd642475d538b7758ad18a44cc0436aef3f5",
+          "size": 4512,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Arya",
+      "slug": "arya",
+      "files": [
+        {
+          "filename": "Arya-Bold.ttf",
+          "relative_path": "Arya/Arya-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Arya/Arya-Bold.ttf",
+          "sha256": "96449d0ec5f452f56c05fd3072115435f41ed3f78d362444b79a8379de2479f4",
+          "size": 186404,
+          "kind": "font"
+        },
+        {
+          "filename": "Arya-Regular.ttf",
+          "relative_path": "Arya/Arya-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Arya/Arya-Regular.ttf",
+          "sha256": "b02bdacefe31bd544f9332b9b4244168ec23e18be395a573e08f484c2a778879",
+          "size": 182132,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Arya/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Arya/OFL.txt",
+          "sha256": "dd028a807788d5e22e9f8cc18f026cda23369954673658f2ecc7d30bdb364b89",
+          "size": 4506,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Asar",
+      "slug": "asar",
+      "files": [
+        {
+          "filename": "Asar-Regular.ttf",
+          "relative_path": "Asar/Asar-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Asar/Asar-Regular.ttf",
+          "sha256": "8b4147354af009836d031f50af3e0450768d78b1e0e0281c7df17cd26440cc2e",
+          "size": 669032,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Asar/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Asar/OFL.txt",
+          "sha256": "223fa23e8419ee762c662e0faf912dfcf386fa7093ac9ff690e380ce1993ba55",
+          "size": 4488,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Bakbak One",
+      "slug": "bakbak-one",
+      "files": [
+        {
+          "filename": "BakbakOne-Regular.ttf",
+          "relative_path": "Bakbak One/BakbakOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Bakbak%20One/BakbakOne-Regular.ttf",
+          "sha256": "238dd2cf76f0fa33e02ea67c2f9697731378ad567503ca6b1f778778093ff84f",
+          "size": 263136,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Bakbak One/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Bakbak%20One/OFL.txt",
+          "sha256": "f2f87c78860447f0bba5f99a1ff7c7e53cc39ead09bc7f130432e58df66be8ff",
+          "size": 4389,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Baloo 2",
+      "slug": "baloo-2",
+      "files": [
+        {
+          "filename": "Baloo2[wght].ttf",
+          "relative_path": "Baloo 2/Baloo2[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Baloo%202/Baloo2%5Bwght%5D.ttf",
+          "sha256": "d47a6852548059b1db49a1319d06d499d546c3fa2237cf9eee9c43c8abb025c2",
+          "size": 683200,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Baloo 2/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Baloo%202/OFL.txt",
+          "sha256": "ad09b05dc8bc678c9daf7c4c5f7ef1f55e5726127f4330b2e98e40b9dffcb860",
+          "size": 4384,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Bhavuka",
+      "slug": "bhavuka",
+      "files": [
+        {
+          "filename": "Bhavuka-Regular.ttf",
+          "relative_path": "Bhavuka/Bhavuka-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Bhavuka/Bhavuka-Regular.ttf",
+          "sha256": "153806257782e9bb99f4504659175a4ba27a5933291702963416c98870b37aa9",
+          "size": 262772,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Bhavuka/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Bhavuka/OFL.txt",
+          "sha256": "012b1870f81b0d97ca756edd9eea315c7fc22657ac2f1cbdfcb6772fed3e20f3",
+          "size": 4574,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Biryani",
+      "slug": "biryani",
+      "files": [
+        {
+          "filename": "Biryani-Black.ttf",
+          "relative_path": "Biryani/Biryani-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-Black.ttf",
+          "sha256": "45d7963ee617b4508f16d182e0eb7aeebb6431614a0641ccc8d4534f3673bafa",
+          "size": 178060,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-Bold.ttf",
+          "relative_path": "Biryani/Biryani-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-Bold.ttf",
+          "sha256": "5e1b0cc60cbf479a1ce41c6b764fcb25160726485c6676db8e789ed4bab43e43",
+          "size": 178968,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-ExtraBold.ttf",
+          "relative_path": "Biryani/Biryani-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-ExtraBold.ttf",
+          "sha256": "ea9ae707985de3f2318fb2ba812facef31253c27e1b039bae922dced15f2273a",
+          "size": 178960,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-ExtraLight.ttf",
+          "relative_path": "Biryani/Biryani-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-ExtraLight.ttf",
+          "sha256": "f2a95908cf136847faa9dbda8226d1d2f45cfcadf17696d082010404509dd770",
+          "size": 177264,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-Light.ttf",
+          "relative_path": "Biryani/Biryani-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-Light.ttf",
+          "sha256": "83238e32854ac489e02276aebca90d4c675ea95a4413c3ce3d012581c67fea8b",
+          "size": 180716,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-Regular.ttf",
+          "relative_path": "Biryani/Biryani-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-Regular.ttf",
+          "sha256": "0b846b4f8600e7943a3a86a2f7ce04c20daa7d2cdad74c951edcc8e07c367116",
+          "size": 179936,
+          "kind": "font"
+        },
+        {
+          "filename": "Biryani-SemiBold.ttf",
+          "relative_path": "Biryani/Biryani-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/Biryani-SemiBold.ttf",
+          "sha256": "8bb5d78fb28fa27909394f3c3548ce544376e23448ff15fbb7cb22ee650b0e5d",
+          "size": 179216,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Biryani/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Biryani/OFL.txt",
+          "sha256": "505bb8f3c30f2006b4e02d250fda31ed94b651a35f1124a201ca1c405ce989af",
+          "size": 4372,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Cambay",
+      "slug": "cambay",
+      "files": [
+        {
+          "filename": "Cambay-Bold.ttf",
+          "relative_path": "Cambay/Cambay-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Cambay/Cambay-Bold.ttf",
+          "sha256": "75b8835327db778da23a029ad0782bde9f82567f902f9cf0cd1e18efa0fa96bc",
+          "size": 231232,
+          "kind": "font"
+        },
+        {
+          "filename": "Cambay-BoldItalic.ttf",
+          "relative_path": "Cambay/Cambay-BoldItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Cambay/Cambay-BoldItalic.ttf",
+          "sha256": "4a5310a8d87f7909fa465794fab60dc37aab5ede8214ff7eea95f36c7a2b8974",
+          "size": 242084,
+          "kind": "font"
+        },
+        {
+          "filename": "Cambay-Italic.ttf",
+          "relative_path": "Cambay/Cambay-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Cambay/Cambay-Italic.ttf",
+          "sha256": "e2946874481bf5e3f28c6ec65a92bc529ad9ca27876fe7bcca8b0f04b5410bb3",
+          "size": 236660,
+          "kind": "font"
+        },
+        {
+          "filename": "Cambay-Regular.ttf",
+          "relative_path": "Cambay/Cambay-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Cambay/Cambay-Regular.ttf",
+          "sha256": "473faf71630aa1b411fa9887951d1b7b2674efa137e6697cd71afc2bf17d4d55",
+          "size": 224780,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Cambay/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Cambay/OFL.txt",
+          "sha256": "846e8cc6dc69bf685d2db14cfa758ff3d9d771d54c9e0d3b511f0ecb97ac0e8a",
+          "size": 4356,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Dekko",
+      "slug": "dekko",
+      "files": [
+        {
+          "filename": "Dekko-Regular.ttf",
+          "relative_path": "Dekko/Dekko-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Dekko/Dekko-Regular.ttf",
+          "sha256": "e6b151a5bdc521833ceb9a4f8010195515259e9416abfe055cfd16adb2e1af42",
+          "size": 271164,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Dekko/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Dekko/OFL.txt",
+          "sha256": "f139d6f43d2a63a8fb3ded48b8ec747d9d59a7fbb13d077d9b96ac88580bc1ad",
+          "size": 4428,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Eczar",
+      "slug": "eczar",
+      "files": [
+        {
+          "filename": "Eczar[wght].ttf",
+          "relative_path": "Eczar/Eczar[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Eczar/Eczar%5Bwght%5D.ttf",
+          "sha256": "b52af3a3b457f9b2278612b73c97eaf28270ffc91c99e4c90471cc15bb8748c6",
+          "size": 407304,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Eczar/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Eczar/OFL.txt",
+          "sha256": "003e3a0675b0b5d38cb6a188039d33a8d747a84effec32e7f8aa6e25cf6d3e2d",
+          "size": 4384,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Ek Mukta",
+      "slug": "ek-mukta",
+      "files": [
+        {
+          "filename": "EkMukta-Bold.ttf",
+          "relative_path": "Ek Mukta/EkMukta-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-Bold.ttf",
+          "sha256": "1d62434625ca99e03acd200702ed5fd4d47231d134809807cdd7fb419f6409d1",
+          "size": 418448,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-ExtraBold.ttf",
+          "relative_path": "Ek Mukta/EkMukta-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-ExtraBold.ttf",
+          "sha256": "9e9ffe6a3113b5b4720b56175bbef76836a9b0e9bb9effe4fc968b50d98f575a",
+          "size": 423196,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-ExtraLight.ttf",
+          "relative_path": "Ek Mukta/EkMukta-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-ExtraLight.ttf",
+          "sha256": "4d793ee781d99bd9498d1089eb461bfb8133bf1b05e0a2dac659905206c06837",
+          "size": 410672,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-Light.ttf",
+          "relative_path": "Ek Mukta/EkMukta-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-Light.ttf",
+          "sha256": "afabee30a12d8bdac36fc2b639e60f26e6f63b2f11613547cfca0d5e4167b54a",
+          "size": 405216,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-Medium.ttf",
+          "relative_path": "Ek Mukta/EkMukta-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-Medium.ttf",
+          "sha256": "a98b7fad6cfae99c498b36002b290daf4c540cfb12dba86bab72f163299b0f56",
+          "size": 419764,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-Regular.ttf",
+          "relative_path": "Ek Mukta/EkMukta-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-Regular.ttf",
+          "sha256": "d14f40a588b232cac9fb3063c707df93fc10e8d265694fc99fcfafcc8ab7b3b4",
+          "size": 432280,
+          "kind": "font"
+        },
+        {
+          "filename": "EkMukta-SemiBold.ttf",
+          "relative_path": "Ek Mukta/EkMukta-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/EkMukta-SemiBold.ttf",
+          "sha256": "26d85f32f084a74b3eb976c28fa148383ac9822b086d94a41bef4659f3cad568",
+          "size": 411188,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Ek Mukta/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ek%20Mukta/OFL.txt",
+          "sha256": "2ee5e8e47cd7d08f60bb9555f72b25912c9e81b13f5bc9a0551ddf943da6ca98",
+          "size": 4367,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Gajraj One",
+      "slug": "gajraj-one",
+      "files": [
+        {
+          "filename": "GajrajOne-Regular.ttf",
+          "relative_path": "Gajraj One/GajrajOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Gajraj%20One/GajrajOne-Regular.ttf",
+          "sha256": "eb924f0e1cb9f29f129a76645dadcc36d0f3a831185ac530a6b5af607ae06231",
+          "size": 149784,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Gajraj One/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Gajraj%20One/OFL.txt",
+          "sha256": "4e9a7cb5e08ca48e87b31184036b705690828000e1b5e8777f9ec01dce84aba6",
+          "size": 4411,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Glegoo",
+      "slug": "glegoo",
+      "files": [
+        {
+          "filename": "Glegoo-Bold.ttf",
+          "relative_path": "Glegoo/Glegoo-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Glegoo/Glegoo-Bold.ttf",
+          "sha256": "8ad5922db134fe9bf9f2691fc5554293c06884cf89823f452fc76db6b3de7fef",
+          "size": 271068,
+          "kind": "font"
+        },
+        {
+          "filename": "Glegoo-Regular.ttf",
+          "relative_path": "Glegoo/Glegoo-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Glegoo/Glegoo-Regular.ttf",
+          "sha256": "237ca320ef867416c46c6fdfa6edc2ac5f49a121396ad0279a2e0f8ed7aaa3b1",
+          "size": 271368,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Glegoo/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Glegoo/OFL.txt",
+          "sha256": "638774cdf8233b5ddaf9ebee1821e9de1d5d59c335d8ee3ba0b47fb17833b502",
+          "size": 4446,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Gotu",
+      "slug": "gotu",
+      "files": [
+        {
+          "filename": "Gotu-Regular.ttf",
+          "relative_path": "Gotu/Gotu-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Gotu/Gotu-Regular.ttf",
+          "sha256": "766fbfb19d8a0c38814b23c42515ed9dea538fce18d741221eca321d0604a3f5",
+          "size": 697792,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Gotu/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Gotu/OFL.txt",
+          "sha256": "159eb46ed0b08f8b9678d6f22f54cc614452d4ab0fb670b568f7a5f315afe511",
+          "size": 4349,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Halant",
+      "slug": "halant",
+      "files": [
+        {
+          "filename": "Halant-Bold.ttf",
+          "relative_path": "Halant/Halant-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/Halant-Bold.ttf",
+          "sha256": "ee33e5ad2f8b8ff03ef91b286ea3bf93583cc162b614790e2ddcfd5772939daf",
+          "size": 306388,
+          "kind": "font"
+        },
+        {
+          "filename": "Halant-Light.ttf",
+          "relative_path": "Halant/Halant-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/Halant-Light.ttf",
+          "sha256": "9a802f6ec93f2db8d1482df9612d83960592a9fe92ccb813c242aa8a72601434",
+          "size": 334772,
+          "kind": "font"
+        },
+        {
+          "filename": "Halant-Medium.ttf",
+          "relative_path": "Halant/Halant-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/Halant-Medium.ttf",
+          "sha256": "1a9bec7ff2433d3af45afff681fb6c3c679e77ab44dbb4db2cbb9cb55e9b7a23",
+          "size": 267908,
+          "kind": "font"
+        },
+        {
+          "filename": "Halant-Regular.ttf",
+          "relative_path": "Halant/Halant-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/Halant-Regular.ttf",
+          "sha256": "f646ffa1cdf2d4ab36326943d3494c98416264f4df40f8e7bf86211de571df07",
+          "size": 289408,
+          "kind": "font"
+        },
+        {
+          "filename": "Halant-SemiBold.ttf",
+          "relative_path": "Halant/Halant-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/Halant-SemiBold.ttf",
+          "sha256": "1ef45ef6113e69e98eddd809a4eefc18f6005743ce7718ef6fd691db43029b82",
+          "size": 276284,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Halant/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Halant/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Hind",
+      "slug": "hind",
+      "files": [
+        {
+          "filename": "Hind-Bold.ttf",
+          "relative_path": "Hind/Hind-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/Hind-Bold.ttf",
+          "sha256": "330c54396bc27628c32e69b88654e41065722182c6f33b936a2a46d72c9d6774",
+          "size": 286604,
+          "kind": "font"
+        },
+        {
+          "filename": "Hind-Light.ttf",
+          "relative_path": "Hind/Hind-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/Hind-Light.ttf",
+          "sha256": "c31b8b6073b14f89187586fb1fa38710d8adae3429ef41e1a398dacbfe839e51",
+          "size": 287484,
+          "kind": "font"
+        },
+        {
+          "filename": "Hind-Medium.ttf",
+          "relative_path": "Hind/Hind-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/Hind-Medium.ttf",
+          "sha256": "70f9c1158390d0c93a8bc24b35b4be4b2439653372bbce7381a32c686fb91a98",
+          "size": 277300,
+          "kind": "font"
+        },
+        {
+          "filename": "Hind-Regular.ttf",
+          "relative_path": "Hind/Hind-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/Hind-Regular.ttf",
+          "sha256": "01de158022f53077b52303e46de3b0ab5fb245222a7ffe25a2a57fdd9e969162",
+          "size": 299532,
+          "kind": "font"
+        },
+        {
+          "filename": "Hind-SemiBold.ttf",
+          "relative_path": "Hind/Hind-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/Hind-SemiBold.ttf",
+          "sha256": "1742a1b0aba97b49da1d3ee3af568fa997c59a3cfe73829f7bec293f416d25dd",
+          "size": 281940,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Hind/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Hind/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "IBM Plex Sans Devanagari",
+      "slug": "ibm-plex-sans-devanagari",
+      "files": [
+        {
+          "filename": "IBMPlexSansDevanagari-Bold.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-Bold.ttf",
+          "sha256": "8c1a55530a59f4d3df71e36ed7090e78511cf1e03c32b932c693ae6ac603b38f",
+          "size": 330896,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-ExtraLight.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
+          "sha256": "9fd21512c2dcbd1675f0999195ac6d09011a13f61fe60775ae6a5e00e577c1e5",
+          "size": 374584,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-Light.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-Light.ttf",
+          "sha256": "d174a4b8c9d3de5bdbbdfca5adc87edf578b61fc207f576aec47f440b8c0b256",
+          "size": 368748,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-Medium.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-Medium.ttf",
+          "sha256": "a112f36f92ecb6967ee82c643547986462d1ddcff22c20ad024cb0915ddd2bee",
+          "size": 343884,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-Regular.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-Regular.ttf",
+          "sha256": "9a309796ffbe3b6827591eb4e6e7f13e273c38d37b40d12a5ac695172571e88b",
+          "size": 357812,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-SemiBold.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-SemiBold.ttf",
+          "sha256": "57f002a2e09846841ebfc59f12d3f3c530d05ff85648d6856dfe44f531c6c84d",
+          "size": 343168,
+          "kind": "font"
+        },
+        {
+          "filename": "IBMPlexSansDevanagari-Thin.ttf",
+          "relative_path": "IBM Plex Sans Devanagari/IBMPlexSansDevanagari-Thin.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/IBMPlexSansDevanagari-Thin.ttf",
+          "sha256": "f41144a3bf9130ba62ad10d7e0b0f42695bf74f73b00c6154b03f8e35a9196d1",
+          "size": 371416,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "IBM Plex Sans Devanagari/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/IBM%20Plex%20Sans%20Devanagari/OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+          "size": 4456,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Inknut Antiqua",
+      "slug": "inknut-antiqua",
+      "files": [
+        {
+          "filename": "InknutAntiqua-Black.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-Black.ttf",
+          "sha256": "279de2d9b3f21796a2a367cc55d8654eee9534a4f329d5d442294d82a333c361",
+          "size": 391960,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-Bold.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-Bold.ttf",
+          "sha256": "222a233da522553541938fa7780d3bcc008af009679797658885f0052ffb76ef",
+          "size": 398368,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-ExtraBold.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-ExtraBold.ttf",
+          "sha256": "89f62cfa8e72f8ec9acc5a0aae088ab4b04fed9c3dbaaad0d2fdb6563a41cba4",
+          "size": 401976,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-Light.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-Light.ttf",
+          "sha256": "6961c4e6b3dfffd2408417d5b58994882806ae959e005309a0096869babd80dc",
+          "size": 401308,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-Medium.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-Medium.ttf",
+          "sha256": "2ec563cf7dfc16e944ff6fb3411dd7fc49de13515d3993587243f02e76e4bf98",
+          "size": 399432,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-Regular.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-Regular.ttf",
+          "sha256": "d46c7420b1e5fedc2086c8ce89275a6ed13c6778829c0617f56df8c3bddd686f",
+          "size": 393736,
+          "kind": "font"
+        },
+        {
+          "filename": "InknutAntiqua-SemiBold.ttf",
+          "relative_path": "Inknut Antiqua/InknutAntiqua-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/InknutAntiqua-SemiBold.ttf",
+          "sha256": "f4d31ad01f24ae26b30c8610f5b3e1ab9383876f1ef98cc0a4118024928456f4",
+          "size": 397764,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Inknut Antiqua/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Inknut%20Antiqua/OFL.txt",
+          "sha256": "16f8621a8dda01f044b8a58489334dbaadfad44ef2fa1d5ce0864cc2f309df01",
+          "size": 4459,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Jaini",
+      "slug": "jaini",
+      "files": [
+        {
+          "filename": "Jaini-Regular.ttf",
+          "relative_path": "Jaini/Jaini-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaini/Jaini-Regular.ttf",
+          "sha256": "67224e60cafa27291c4b03cd907ca61ec678ba59fc1743af89da4472ea50d5c7",
+          "size": 757280,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Jaini/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaini/OFL.txt",
+          "sha256": "5f716b45b3d7c1e206a6a40da96208f151c1fcd33d7de578b88124d1ae341ec3",
+          "size": 4382,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Jaini Purva",
+      "slug": "jaini-purva",
+      "files": [
+        {
+          "filename": "JainiPurva-Regular.ttf",
+          "relative_path": "Jaini Purva/JainiPurva-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaini%20Purva/JainiPurva-Regular.ttf",
+          "sha256": "178d7f5a40594d4ef6c28b7a68d85da7eae46df2f71becedfb40251ff678c2f5",
+          "size": 762796,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Jaini Purva/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaini%20Purva/OFL.txt",
+          "sha256": "5f716b45b3d7c1e206a6a40da96208f151c1fcd33d7de578b88124d1ae341ec3",
+          "size": 4382,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Jaldi",
+      "slug": "jaldi",
+      "files": [
+        {
+          "filename": "Jaldi-Bold.ttf",
+          "relative_path": "Jaldi/Jaldi-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaldi/Jaldi-Bold.ttf",
+          "sha256": "5518eef27bab146f957c70fe50ef10bea8fe363d3ac75cc797aa882a7226bd99",
+          "size": 468300,
+          "kind": "font"
+        },
+        {
+          "filename": "Jaldi-Regular.ttf",
+          "relative_path": "Jaldi/Jaldi-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaldi/Jaldi-Regular.ttf",
+          "sha256": "26f34c48b7baa838dd459b5f5db026e9493bb468efc2956761c52134d478d2e2",
+          "size": 460664,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Jaldi/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Jaldi/OFL.txt",
+          "sha256": "a74380bba78a364ec70b3a5fb6a1161b83cb05cc3e75a0910afbd1b5aff4f9c8",
+          "size": 4387,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Kadwa",
+      "slug": "kadwa",
+      "files": [
+        {
+          "filename": "Kadwa-Bold.ttf",
+          "relative_path": "Kadwa/Kadwa-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kadwa/Kadwa-Bold.ttf",
+          "sha256": "4dca4a79280ecc1911deb83cc0441dbd53d65af10a42b07157c7a9f2de1e25cc",
+          "size": 239892,
+          "kind": "font"
+        },
+        {
+          "filename": "Kadwa-Regular.ttf",
+          "relative_path": "Kadwa/Kadwa-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kadwa/Kadwa-Regular.ttf",
+          "sha256": "2d726feadfadcf1e1eb31d443556b830da66badbb0629e984419d8ddab7e6e9d",
+          "size": 251420,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Kadwa/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kadwa/OFL.txt",
+          "sha256": "b01cec9e5e2035b70a6aeb61c673d1f6d5c91539845be07733bd9880fddeb9f0",
+          "size": 4487,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Kalam",
+      "slug": "kalam",
+      "files": [
+        {
+          "filename": "Kalam-Bold.ttf",
+          "relative_path": "Kalam/Kalam-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kalam/Kalam-Bold.ttf",
+          "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded",
+          "size": 460896,
+          "kind": "font"
+        },
+        {
+          "filename": "Kalam-Light.ttf",
+          "relative_path": "Kalam/Kalam-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kalam/Kalam-Light.ttf",
+          "sha256": "2b8f2c0208d397a1823688783da3317d6af18ea007a9a1b56ddb17e27820507e",
+          "size": 437512,
+          "kind": "font"
+        },
+        {
+          "filename": "Kalam-Regular.ttf",
+          "relative_path": "Kalam/Kalam-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kalam/Kalam-Regular.ttf",
+          "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b",
+          "size": 427360,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Kalam/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kalam/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Karma",
+      "slug": "karma",
+      "files": [
+        {
+          "filename": "Karma-Bold.ttf",
+          "relative_path": "Karma/Karma-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/Karma-Bold.ttf",
+          "sha256": "3819cedaa8ef7247aaae77113cbb9b22b207f5fe6c045ae0e1442a7b6b69328e",
+          "size": 346620,
+          "kind": "font"
+        },
+        {
+          "filename": "Karma-Light.ttf",
+          "relative_path": "Karma/Karma-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/Karma-Light.ttf",
+          "sha256": "8a6174244c519f4190f7995ae64e52b4203b01156327d02ca07c5445ad2eda3d",
+          "size": 315108,
+          "kind": "font"
+        },
+        {
+          "filename": "Karma-Medium.ttf",
+          "relative_path": "Karma/Karma-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/Karma-Medium.ttf",
+          "sha256": "28ef21834a486aafee86cbdfad1b89d7ebd175c0d58bcf07099f7cabc3bc9406",
+          "size": 335956,
+          "kind": "font"
+        },
+        {
+          "filename": "Karma-Regular.ttf",
+          "relative_path": "Karma/Karma-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/Karma-Regular.ttf",
+          "sha256": "cc3457d2867b67ee956d95206dbc831e57b26975219d3d4e68d60f51f67b4b55",
+          "size": 339812,
+          "kind": "font"
+        },
+        {
+          "filename": "Karma-SemiBold.ttf",
+          "relative_path": "Karma/Karma-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/Karma-SemiBold.ttf",
+          "sha256": "e4189f11c7794358e14d66e3661c585ce1b550403b327abc4ea4d240dcdc5116",
+          "size": 335912,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Karma/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Karma/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Khand",
+      "slug": "khand",
+      "files": [
+        {
+          "filename": "Khand-Bold.ttf",
+          "relative_path": "Khand/Khand-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/Khand-Bold.ttf",
+          "sha256": "1e166cadaf044765dc41f99386756376d8b648c71e198133653c142a4e9a086e",
+          "size": 358664,
+          "kind": "font"
+        },
+        {
+          "filename": "Khand-Light.ttf",
+          "relative_path": "Khand/Khand-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/Khand-Light.ttf",
+          "sha256": "52429cff48e8a2a77a63940ca7f7957dfd404c2375691272fc7a386e33fe0055",
+          "size": 306384,
+          "kind": "font"
+        },
+        {
+          "filename": "Khand-Medium.ttf",
+          "relative_path": "Khand/Khand-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/Khand-Medium.ttf",
+          "sha256": "40405d6ac45cec61455b960bc13a353536b9787dff38e8070ad3b9cc18a80639",
+          "size": 329932,
+          "kind": "font"
+        },
+        {
+          "filename": "Khand-Regular.ttf",
+          "relative_path": "Khand/Khand-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/Khand-Regular.ttf",
+          "sha256": "fb2b604a80f9fd6e3532b1f25c964bf56002240e2da0ea7a7265eec7bb4bc519",
+          "size": 316808,
+          "kind": "font"
+        },
+        {
+          "filename": "Khand-SemiBold.ttf",
+          "relative_path": "Khand/Khand-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/Khand-SemiBold.ttf",
+          "sha256": "918cb97509c99fe0a9acb857dfa90e5524fc231791fedd76e6bc1f9d94fa038e",
+          "size": 348692,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Khand/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khand/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Khula",
+      "slug": "khula",
+      "files": [
+        {
+          "filename": "Khula-Bold.ttf",
+          "relative_path": "Khula/Khula-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/Khula-Bold.ttf",
+          "sha256": "923cafe77cf48066e151f91358800bd9e036b1c417b9fcc326da39d281b87fe7",
+          "size": 155640,
+          "kind": "font"
+        },
+        {
+          "filename": "Khula-ExtraBold.ttf",
+          "relative_path": "Khula/Khula-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/Khula-ExtraBold.ttf",
+          "sha256": "ba71d616a428488071037fba6fa660396f0a189fc545cf60b7a0de709075947f",
+          "size": 159768,
+          "kind": "font"
+        },
+        {
+          "filename": "Khula-Light.ttf",
+          "relative_path": "Khula/Khula-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/Khula-Light.ttf",
+          "sha256": "805bec764710d2e18590c3b783d0ba241e76368a718107ede318f84b940e5075",
+          "size": 165864,
+          "kind": "font"
+        },
+        {
+          "filename": "Khula-Regular.ttf",
+          "relative_path": "Khula/Khula-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/Khula-Regular.ttf",
+          "sha256": "825477d3c995997ebd41245fc4177bf1681bfd6546674e0d67a29a094c78644f",
+          "size": 158356,
+          "kind": "font"
+        },
+        {
+          "filename": "Khula-SemiBold.ttf",
+          "relative_path": "Khula/Khula-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/Khula-SemiBold.ttf",
+          "sha256": "b12c4895da1a0e7eccc18c844baa1054fd51eab70d3a65786e7c8437fea51986",
+          "size": 154444,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Khula/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Khula/OFL.txt",
+          "sha256": "2171558d2482764644a2f793696fa2e48c361730ecc87686b9a29082d6daeb10",
+          "size": 4418,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Kurale",
+      "slug": "kurale",
+      "files": [
+        {
+          "filename": "Kurale-Regular.ttf",
+          "relative_path": "Kurale/Kurale-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kurale/Kurale-Regular.ttf",
+          "sha256": "6055aaca6870ca64210dd81fa47f8bb71595a9c8fbe570351ed45a15f1a0820d",
+          "size": 265304,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Kurale/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Kurale/OFL.txt",
+          "sha256": "b712dacdda5da76c0213f8478886f893b855665c1153ae438bc3e55a7dc525ef",
+          "size": 4363,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Laila",
+      "slug": "laila",
+      "files": [
+        {
+          "filename": "Laila-Bold.ttf",
+          "relative_path": "Laila/Laila-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/Laila-Bold.ttf",
+          "sha256": "3b50aae09041e0941e4309ba1cbc4bacd858f8852b5e76e240157ae6e7da87b3",
+          "size": 369496,
+          "kind": "font"
+        },
+        {
+          "filename": "Laila-Light.ttf",
+          "relative_path": "Laila/Laila-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/Laila-Light.ttf",
+          "sha256": "53e37dfb3b1d5a979a8506264df6c6ef3538fe9cf25035d1705f71053b27e863",
+          "size": 337628,
+          "kind": "font"
+        },
+        {
+          "filename": "Laila-Medium.ttf",
+          "relative_path": "Laila/Laila-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/Laila-Medium.ttf",
+          "sha256": "ceab0829c5281aa7f6e8196ee6b8052c7cd6227dd36e5e41336e4c7dd61b5f33",
+          "size": 341440,
+          "kind": "font"
+        },
+        {
+          "filename": "Laila-Regular.ttf",
+          "relative_path": "Laila/Laila-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/Laila-Regular.ttf",
+          "sha256": "f2a4a3f9ac8d8d5e340050fa3f42618e2e6da0adebcf8389a8fa6febbced31f2",
+          "size": 348824,
+          "kind": "font"
+        },
+        {
+          "filename": "Laila-SemiBold.ttf",
+          "relative_path": "Laila/Laila-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/Laila-SemiBold.ttf",
+          "sha256": "df916fbc664bbf3e25702b30fe0d94712217e09468ef875e43e4e183e719ab66",
+          "size": 352360,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Laila/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Laila/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Lohit Devanagari",
+      "slug": "lohit-devanagari",
+      "files": [
+        {
+          "filename": "Lohit-Devanagari.ttf",
+          "relative_path": "Lohit Devanagari/Lohit-Devanagari.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Lohit%20Devanagari/Lohit-Devanagari.ttf",
+          "sha256": "e2fa70cdd6cd6638554dc278699b0cfaad7f9421fa05ae8e03bb62164069bd21",
+          "size": 72328,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Lohit Devanagari/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Lohit%20Devanagari/OFL.txt",
+          "sha256": "4fe81901e6f84cfce1145c715e931352a9a12aa7ac75cc193eb523c0cb0e5eb5",
+          "size": 4388,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Martel",
+      "slug": "martel",
+      "files": [
+        {
+          "filename": "Martel-Bold.ttf",
+          "relative_path": "Martel/Martel-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-Bold.ttf",
+          "sha256": "072b7259061a99128e50056b081024975dfc6e4c0b265ab99f75bf66bd50c338",
+          "size": 170240,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-DemiBold.ttf",
+          "relative_path": "Martel/Martel-DemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-DemiBold.ttf",
+          "sha256": "6be979323225cd9d1a3964403b2771816e007610ee68d8d4bf08a75f2e7e08bf",
+          "size": 170100,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-ExtraBold.ttf",
+          "relative_path": "Martel/Martel-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-ExtraBold.ttf",
+          "sha256": "5bc47c0d423242f1dc9f7e33246cf264c72fb0672ebc76d4774494fe71ccf9a4",
+          "size": 170900,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-Heavy.ttf",
+          "relative_path": "Martel/Martel-Heavy.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-Heavy.ttf",
+          "sha256": "6122fc615d2ea31a44380737c679d6193a2de5a263f6bd6b329679b4f640609e",
+          "size": 164364,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-Light.ttf",
+          "relative_path": "Martel/Martel-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-Light.ttf",
+          "sha256": "589537240a3d2c06793c5e7d5f85fc60a4ceba9b95e35206f3a7b5d90f6f6938",
+          "size": 170540,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-Regular.ttf",
+          "relative_path": "Martel/Martel-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-Regular.ttf",
+          "sha256": "b733e56144115d5da6a6415d2971ab97b7262948d172e27309ad00ce9096b876",
+          "size": 170196,
+          "kind": "font"
+        },
+        {
+          "filename": "Martel-UltraLight.ttf",
+          "relative_path": "Martel/Martel-UltraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/Martel-UltraLight.ttf",
+          "sha256": "775fa07561b055b31297ad2f05bf5f45eddc1645318ed2c419724a41b09cf010",
+          "size": 168700,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Martel/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel/OFL.txt",
+          "sha256": "f177d98c67b84250ec87a03ca6ad161e84cab15b435e960039b971797a065f4a",
+          "size": 4436,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Martel Sans",
+      "slug": "martel-sans",
+      "files": [
+        {
+          "filename": "MartelSans-Black.ttf",
+          "relative_path": "Martel Sans/MartelSans-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-Black.ttf",
+          "sha256": "887a02992fb3560da586411d99be7ea1988d8ac6810ca881141f8fda7ac5e4aa",
+          "size": 152156,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-Bold.ttf",
+          "relative_path": "Martel Sans/MartelSans-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-Bold.ttf",
+          "sha256": "a6b8bb30ba51cf0e8afbaa47ea157bf952a1ee79ad89e772a7dff6404a2b64b4",
+          "size": 152352,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-ExtraBold.ttf",
+          "relative_path": "Martel Sans/MartelSans-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-ExtraBold.ttf",
+          "sha256": "eeced1acab2ab2ebc2eeb9cf80f162583c1b36fab2e1f65bdb14c4a68bde6868",
+          "size": 152748,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-ExtraLight.ttf",
+          "relative_path": "Martel Sans/MartelSans-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-ExtraLight.ttf",
+          "sha256": "dc353b8e790286b8a721a371e39f2e2eb37ace13756a4580adca7e6d8543e46c",
+          "size": 153652,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-Light.ttf",
+          "relative_path": "Martel Sans/MartelSans-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-Light.ttf",
+          "sha256": "e1c54736ae22799fbc2bc10d2c753b319d87dd9346ebbe86fbe0b8c59009acaa",
+          "size": 153172,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-Regular.ttf",
+          "relative_path": "Martel Sans/MartelSans-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-Regular.ttf",
+          "sha256": "5c365880e5c79763c745ca132049518e69873cf3da6f7ee91711dc522b021100",
+          "size": 153396,
+          "kind": "font"
+        },
+        {
+          "filename": "MartelSans-SemiBold.ttf",
+          "relative_path": "Martel Sans/MartelSans-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/MartelSans-SemiBold.ttf",
+          "sha256": "920cb398017087b2369a036df676335a32a3af71c4560dbde0e2199a004c9fc1",
+          "size": 152724,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Martel Sans/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Martel%20Sans/OFL.txt",
+          "sha256": "5641212407f956b828bf632afc4bbb3344f461f82255ab56756d9e3e8604c7b1",
+          "size": 4372,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Matangi",
+      "slug": "matangi",
+      "files": [
+        {
+          "filename": "Matangi[wght].ttf",
+          "relative_path": "Matangi/Matangi[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Matangi/Matangi%5Bwght%5D.ttf",
+          "sha256": "1f2a23098e137dc241492fde76543abaaccad4726e99b198002e6dffbdf5a45d",
+          "size": 711948,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Matangi/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Matangi/OFL.txt",
+          "sha256": "9fa2d688009a1dad3a8938b5649a9955cae6baecdae25461a26a1c4703a99627",
+          "size": 4390,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Modak",
+      "slug": "modak",
+      "files": [
+        {
+          "filename": "Modak-Regular.ttf",
+          "relative_path": "Modak/Modak-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Modak/Modak-Regular.ttf",
+          "sha256": "9a96ba056ddcbb7d0c937c52f744ff5d71004a97689b1fd2cdbd678f314db245",
+          "size": 650188,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Modak/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Modak/OFL.txt",
+          "sha256": "5fb0694694dc307d1eb0121689395e634b6329ff545acc53f55ad66a716b3cf1",
+          "size": 4346,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Mukta",
+      "slug": "mukta",
+      "files": [
+        {
+          "filename": "Mukta-Bold.ttf",
+          "relative_path": "Mukta/Mukta-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-Bold.ttf",
+          "sha256": "7d22891cd57507b04af95a67ffaf59b7073b3595a27d1cfbbcefb418de820a12",
+          "size": 418416,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-ExtraBold.ttf",
+          "relative_path": "Mukta/Mukta-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-ExtraBold.ttf",
+          "sha256": "328eeebffe06fac60d60b46fe60c3995a908d2347e9c285f1eef1a0c9d73e004",
+          "size": 423168,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-ExtraLight.ttf",
+          "relative_path": "Mukta/Mukta-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-ExtraLight.ttf",
+          "sha256": "ff3260e6fd667797b0beb80430b0da318ccdac73c0f90fe828c2dd5a093265a1",
+          "size": 410644,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-Light.ttf",
+          "relative_path": "Mukta/Mukta-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-Light.ttf",
+          "sha256": "161f2f22d33a1c75d9fb37d74ea99e8dbbe119cd5c102c83146fb032a552e8f2",
+          "size": 405188,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-Medium.ttf",
+          "relative_path": "Mukta/Mukta-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-Medium.ttf",
+          "sha256": "4db18bd8f19582607e8a6af0c4bf158b4b3378b426e42ad39d444d216c70074c",
+          "size": 419736,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-Regular.ttf",
+          "relative_path": "Mukta/Mukta-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-Regular.ttf",
+          "sha256": "2958e4af564507df2a856164df6f9978dacb03f999a4f34a0c269dc8a4de9688",
+          "size": 432248,
+          "kind": "font"
+        },
+        {
+          "filename": "Mukta-SemiBold.ttf",
+          "relative_path": "Mukta/Mukta-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/Mukta-SemiBold.ttf",
+          "sha256": "f437fb098f8f29acb8628617cb2682f0780ef22fa8b0443de1f66090c36e510a",
+          "size": 411160,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Mukta/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Mukta/OFL.txt",
+          "sha256": "2ee5e8e47cd7d08f60bb9555f72b25912c9e81b13f5bc9a0551ddf943da6ca98",
+          "size": 4367,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "slug": "noto-sans",
+      "files": [
+        {
+          "filename": "NotoSans-Italic[wdth,wght].ttf",
+          "relative_path": "Noto Sans/NotoSans-Italic[wdth,wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans/NotoSans-Italic%5Bwdth%2Cwght%5D.ttf",
+          "sha256": "58e6e0ebd1931b29a365aa2d3e2ee9a9e831a3af7cf3ad1462d4e72154f0b291",
+          "size": 2322640,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSans[wdth,wght].ttf",
+          "relative_path": "Noto Sans/NotoSans[wdth,wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+          "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+          "size": 2049096,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Noto Sans/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans/OFL.txt",
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+          "size": 4396,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "slug": "noto-sans-devanagari",
+      "files": [
+        {
+          "filename": "NotoSansDevanagari[wdth,wght].ttf",
+          "relative_path": "Noto Sans Devanagari/NotoSansDevanagari[wdth,wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf",
+          "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+          "size": 647144,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Noto Sans Devanagari/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari/OFL.txt",
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+          "size": 4386,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Noto Sans Devanagari UI",
+      "slug": "noto-sans-devanagari-ui",
+      "files": [
+        {
+          "filename": "NotoSansDevanagariUI-Black.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Black.ttf",
+          "sha256": "544560061449451446610409e6d3a30fbe6d341313e8f0089839a8c38dc6cbb7",
+          "size": 226908,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-Bold.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Bold.ttf",
+          "sha256": "c2a648025d13b35674ce39d886b179ffada7202097b42bd4634bf298f08f654e",
+          "size": 223724,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-ExtraBold.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-ExtraBold.ttf",
+          "sha256": "fd36245aa8535d950b8a22fa52e161646855b36338cffc4a0333610ee7af1267",
+          "size": 226304,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-ExtraLight.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-ExtraLight.ttf",
+          "sha256": "44b9cc07a76aa8c4aac181b93f44b1505f580ce2183b601ecf79b6f6dbe0cdb8",
+          "size": 214552,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-Light.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Light.ttf",
+          "sha256": "0f66c249feed1e2d164c7d194b73070dab7159a9a329d1c0215e961233d2993e",
+          "size": 212104,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-Medium.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Medium.ttf",
+          "sha256": "a3ba715b2822f1b76f23b76238ef4aa5a417d4df49815c1979b56af39e6240ce",
+          "size": 219764,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-Regular.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Regular.ttf",
+          "sha256": "c0b105d248337435b876d3a3d19b380c9782e452b15f142a0cf7b10f5d29a280",
+          "size": 215368,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-SemiBold.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-SemiBold.ttf",
+          "sha256": "660b369a23914f270a9b73ff7db7d8d73c1d1c854141d8ca10aef17b258768f0",
+          "size": 222388,
+          "kind": "font"
+        },
+        {
+          "filename": "NotoSansDevanagariUI-Thin.ttf",
+          "relative_path": "Noto Sans Devanagari UI/NotoSansDevanagariUI-Thin.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/NotoSansDevanagariUI-Thin.ttf",
+          "sha256": "74a640dd72785855505332c8e02f2499587f89c6c319c9849590d3ce4f691958",
+          "size": 214068,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Noto Sans Devanagari UI/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Sans%20Devanagari%20UI/OFL.txt",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+          "size": 4350,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Noto Serif Devanagari",
+      "slug": "noto-serif-devanagari",
+      "files": [
+        {
+          "filename": "NotoSerifDevanagari[wdth,wght].ttf",
+          "relative_path": "Noto Serif Devanagari/NotoSerifDevanagari[wdth,wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Serif%20Devanagari/NotoSerifDevanagari%5Bwdth%2Cwght%5D.ttf",
+          "sha256": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
+          "size": 757692,
+          "kind": "font"
+        },
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Noto Serif Devanagari/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Noto%20Serif%20Devanagari/OFL.txt",
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+          "size": 4386,
+          "kind": "license"
+        }
+      ]
+    },
+    {
+      "family": "Palanquin",
+      "slug": "palanquin",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Palanquin/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/OFL.txt",
+          "sha256": "548890e4083028f04e5feba04b6e00554654d840aab81c8664eb66c2216a571b",
+          "size": 4366,
+          "kind": "license"
+        },
+        {
+          "filename": "Palanquin-Bold.ttf",
+          "relative_path": "Palanquin/Palanquin-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-Bold.ttf",
+          "sha256": "b9ff87d5743c179d1300ecbbdb97c53e7a1adb2f54c446c21acec50e2bc77acf",
+          "size": 508152,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-ExtraLight.ttf",
+          "relative_path": "Palanquin/Palanquin-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-ExtraLight.ttf",
+          "sha256": "1e92eeaf00081e9320bbcbda4e1c54cbaa4c8148dc6a6a25c1ad0b3f1474f198",
+          "size": 440576,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-Light.ttf",
+          "relative_path": "Palanquin/Palanquin-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-Light.ttf",
+          "sha256": "33c40ff07f925a26240a76de1ac3a57c086a388138c44966f0ea2f56522893d0",
+          "size": 443316,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-Medium.ttf",
+          "relative_path": "Palanquin/Palanquin-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-Medium.ttf",
+          "sha256": "9afdd20558ad624c4a45ec9d4450980320c49093be397c83d33033e413dcc4c4",
+          "size": 525336,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-Regular.ttf",
+          "relative_path": "Palanquin/Palanquin-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-Regular.ttf",
+          "sha256": "f4f9cf415279b466b1c4df6168283f95fa88440b27bb34e884aeb03a432b02f0",
+          "size": 478368,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-SemiBold.ttf",
+          "relative_path": "Palanquin/Palanquin-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-SemiBold.ttf",
+          "sha256": "08cf0011bc5ab632e75ca79f2df1f37956fc3b93d1305b46117df17fb58cb414",
+          "size": 521420,
+          "kind": "font"
+        },
+        {
+          "filename": "Palanquin-Thin.ttf",
+          "relative_path": "Palanquin/Palanquin-Thin.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin/Palanquin-Thin.ttf",
+          "sha256": "387c32989030704407c8b6e711b05268b67dd93e0f033f8eebdd300a9c4f0809",
+          "size": 429632,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Palanquin Dark",
+      "slug": "palanquin-dark",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Palanquin Dark/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin%20Dark/OFL.txt",
+          "sha256": "548890e4083028f04e5feba04b6e00554654d840aab81c8664eb66c2216a571b",
+          "size": 4366,
+          "kind": "license"
+        },
+        {
+          "filename": "PalanquinDark-Bold.ttf",
+          "relative_path": "Palanquin Dark/PalanquinDark-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin%20Dark/PalanquinDark-Bold.ttf",
+          "sha256": "8bf3591c758a3a35977b9af72c6a9639aa60c6652743ddb9cdc59dc1a30f7971",
+          "size": 511480,
+          "kind": "font"
+        },
+        {
+          "filename": "PalanquinDark-Medium.ttf",
+          "relative_path": "Palanquin Dark/PalanquinDark-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin%20Dark/PalanquinDark-Medium.ttf",
+          "sha256": "32b2f0672eb1597556c71d002b59dbaff75aeb20e3d2fde9286c71b3793b483f",
+          "size": 513060,
+          "kind": "font"
+        },
+        {
+          "filename": "PalanquinDark-Regular.ttf",
+          "relative_path": "Palanquin Dark/PalanquinDark-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin%20Dark/PalanquinDark-Regular.ttf",
+          "sha256": "de7ba10d7038f13c677b6a57e01c4b2082dd49602a15406135d761296c949284",
+          "size": 500136,
+          "kind": "font"
+        },
+        {
+          "filename": "PalanquinDark-SemiBold.ttf",
+          "relative_path": "Palanquin Dark/PalanquinDark-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Palanquin%20Dark/PalanquinDark-SemiBold.ttf",
+          "sha256": "4729ae4e60cc20cbc1ec942b033354683339fd77a9dcf55f998e9153cb6d3036",
+          "size": 522336,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Playpen Sans Deva",
+      "slug": "playpen-sans-deva",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Playpen Sans Deva/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Playpen%20Sans%20Deva/OFL.txt",
+          "sha256": "59440310cc2c539b53c835306f74ac8c01f1ece58bf4c65e556fca275b80a730",
+          "size": 4399,
+          "kind": "license"
+        },
+        {
+          "filename": "PlaypenSansDeva[wght].ttf",
+          "relative_path": "Playpen Sans Deva/PlaypenSansDeva[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Playpen%20Sans%20Deva/PlaypenSansDeva%5Bwght%5D.ttf",
+          "sha256": "741156a0ea70b12b150625cd715c34f0a921db5f7dd2bceb37043e59764ae3ea",
+          "size": 1567116,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Poppins",
+      "slug": "poppins",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Poppins/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/OFL.txt",
+          "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573",
+          "size": 4385,
+          "kind": "license"
+        },
+        {
+          "filename": "Poppins-Black.ttf",
+          "relative_path": "Poppins/Poppins-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Black.ttf",
+          "sha256": "d82aaaf98a9283f9a8edd24e51173337d8eaf09e25cd3d98831f8ec8461748a1",
+          "size": 153440,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-BlackItalic.ttf",
+          "relative_path": "Poppins/Poppins-BlackItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-BlackItalic.ttf",
+          "sha256": "f4852ca89c29f69d800e14f097ed4d1f0a0cc454e9f77d73bfd6db1f71c287a0",
+          "size": 174116,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Bold.ttf",
+          "relative_path": "Poppins/Poppins-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Bold.ttf",
+          "sha256": "983676516167748b74de6f4771fb384c664fd913acb8b471122ecacf5da5ea6c",
+          "size": 155996,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-BoldItalic.ttf",
+          "relative_path": "Poppins/Poppins-BoldItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-BoldItalic.ttf",
+          "sha256": "3572ac8116a0ac7317d342262b29937bcbaf94d8f03f90df6fe666fa7e2fb43a",
+          "size": 179108,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-ExtraBold.ttf",
+          "relative_path": "Poppins/Poppins-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-ExtraBold.ttf",
+          "sha256": "f2ab17c1a63a0ecc12c2461848fc8a469395e3cd2d641803e889c643d9f958e1",
+          "size": 154836,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-ExtraBoldItalic.ttf",
+          "relative_path": "Poppins/Poppins-ExtraBoldItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-ExtraBoldItalic.ttf",
+          "sha256": "dc00a2eb988373e9f4e99bf8ff76c6315ee21d36b341cbbff024e4c18cc7ac03",
+          "size": 176468,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-ExtraLight.ttf",
+          "relative_path": "Poppins/Poppins-ExtraLight.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-ExtraLight.ttf",
+          "sha256": "55c03314cc754e26f741f97890e5e9cbe3b3278fe3abcecfecafd60111b2643d",
+          "size": 163568,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-ExtraLightItalic.ttf",
+          "relative_path": "Poppins/Poppins-ExtraLightItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-ExtraLightItalic.ttf",
+          "sha256": "7171a17e4cda8f6ded78a7a931f9b7f38987057f3ffd1fe07a71528ad0f01e49",
+          "size": 188748,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Italic.ttf",
+          "relative_path": "Poppins/Poppins-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Italic.ttf",
+          "sha256": "4fa76ae75b40f926420514044722cb97f32186cafd3b38263cc34dad7174d46d",
+          "size": 184544,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Light.ttf",
+          "relative_path": "Poppins/Poppins-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Light.ttf",
+          "sha256": "650ba57fa99d12ec40c31ccfb680be656be4497fbe14164617d67e32ffe9cd46",
+          "size": 161936,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-LightItalic.ttf",
+          "relative_path": "Poppins/Poppins-LightItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-LightItalic.ttf",
+          "sha256": "b8f9c5be59723fadf8e5447fa1245c2c53b60a3464a24d6ece9ee3c283d8917b",
+          "size": 186976,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Medium.ttf",
+          "relative_path": "Poppins/Poppins-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Medium.ttf",
+          "sha256": "90373e7d838d32468438fc3e152dca0bdb12edcab99ea639f158790b1ba1fd05",
+          "size": 158576,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-MediumItalic.ttf",
+          "relative_path": "Poppins/Poppins-MediumItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-MediumItalic.ttf",
+          "sha256": "765addf6c7c11ec3c54325cacd68cabd05df8e4b6455302d812a9b9bafd1c614",
+          "size": 183012,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Regular.ttf",
+          "relative_path": "Poppins/Poppins-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Regular.ttf",
+          "sha256": "7e65201e9b79159e2300267cc885e16c8dcef2424cdfa09a29bfb0980a94a7ba",
+          "size": 160316,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-SemiBold.ttf",
+          "relative_path": "Poppins/Poppins-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-SemiBold.ttf",
+          "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286",
+          "size": 157312,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-SemiBoldItalic.ttf",
+          "relative_path": "Poppins/Poppins-SemiBoldItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-SemiBoldItalic.ttf",
+          "sha256": "16bb118aa232c9a13fa238027d24d7854dd1a1d9cbaf99b17fec4388d56b432c",
+          "size": 181108,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-Thin.ttf",
+          "relative_path": "Poppins/Poppins-Thin.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-Thin.ttf",
+          "sha256": "6d8e5d9d29140cc93e321745fa1243c67889e6bc3639ec34db64f3da7a496352",
+          "size": 163672,
+          "kind": "font"
+        },
+        {
+          "filename": "Poppins-ThinItalic.ttf",
+          "relative_path": "Poppins/Poppins-ThinItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Poppins/Poppins-ThinItalic.ttf",
+          "sha256": "46df80ac970f5e84829b868d283878b4d97e289c7b1245541d8bbf66b5d670a8",
+          "size": 189552,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Pragati Narrow",
+      "slug": "pragati-narrow",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Pragati Narrow/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Pragati%20Narrow/OFL.txt",
+          "sha256": "2dab153a33dcb2101bba3f194d27d953c848a0fabf2e336650a81f84a0c33b3f",
+          "size": 4482,
+          "kind": "license"
+        },
+        {
+          "filename": "PragatiNarrow-Bold.ttf",
+          "relative_path": "Pragati Narrow/PragatiNarrow-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Pragati%20Narrow/PragatiNarrow-Bold.ttf",
+          "sha256": "8e151c9307194e6fdd69503999f2150e066dc5e9cdb2a966c861ec53286fc863",
+          "size": 419792,
+          "kind": "font"
+        },
+        {
+          "filename": "PragatiNarrow-Regular.ttf",
+          "relative_path": "Pragati Narrow/PragatiNarrow-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Pragati%20Narrow/PragatiNarrow-Regular.ttf",
+          "sha256": "c00d288cc79bce384e85161a256570d278bf25598f809c9718a4f59421516a94",
+          "size": 377784,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Rajdhani",
+      "slug": "rajdhani",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Rajdhani/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        },
+        {
+          "filename": "Rajdhani-Bold.ttf",
+          "relative_path": "Rajdhani/Rajdhani-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/Rajdhani-Bold.ttf",
+          "sha256": "691470dd3286a14e9677940d0bf75796179841ba5215cbda1a2c8910a3226afd",
+          "size": 400680,
+          "kind": "font"
+        },
+        {
+          "filename": "Rajdhani-Light.ttf",
+          "relative_path": "Rajdhani/Rajdhani-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/Rajdhani-Light.ttf",
+          "sha256": "140e9f13af69538161c5780fcf7f81594c069aea887e7bffd417ae1c641213c3",
+          "size": 383928,
+          "kind": "font"
+        },
+        {
+          "filename": "Rajdhani-Medium.ttf",
+          "relative_path": "Rajdhani/Rajdhani-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/Rajdhani-Medium.ttf",
+          "sha256": "12ff7dcfe4c206e3875ac53b1762eab57de6a2fa7f5a86c26b97b88d6591eac2",
+          "size": 384348,
+          "kind": "font"
+        },
+        {
+          "filename": "Rajdhani-Regular.ttf",
+          "relative_path": "Rajdhani/Rajdhani-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/Rajdhani-Regular.ttf",
+          "sha256": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98",
+          "size": 377860,
+          "kind": "font"
+        },
+        {
+          "filename": "Rajdhani-SemiBold.ttf",
+          "relative_path": "Rajdhani/Rajdhani-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rajdhani/Rajdhani-SemiBold.ttf",
+          "sha256": "94bbd25a18ca665999feb05a537de9fd2b860dcfb78bbe9ca00270825bf235da",
+          "size": 390340,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Ranga",
+      "slug": "ranga",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Ranga/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ranga/OFL.txt",
+          "sha256": "8c22fb3866eaebd77a2cb8e8ecbb095381ff32300db57758326fef35a26132f5",
+          "size": 4335,
+          "kind": "license"
+        },
+        {
+          "filename": "Ranga-Bold.ttf",
+          "relative_path": "Ranga/Ranga-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ranga/Ranga-Bold.ttf",
+          "sha256": "c5c763628e805a2af3c9deb68abd0b70227a98911f7ba56f4f8c2a3e8c286b96",
+          "size": 127288,
+          "kind": "font"
+        },
+        {
+          "filename": "Ranga-Regular.ttf",
+          "relative_path": "Ranga/Ranga-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Ranga/Ranga-Regular.ttf",
+          "sha256": "e51a6898e34d12bd9b9057002e645f176d30f5e821bfaa1ccc4e56294af7099a",
+          "size": 119128,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Rhodium Libre",
+      "slug": "rhodium-libre",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Rhodium Libre/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rhodium%20Libre/OFL.txt",
+          "sha256": "0886960207bb5bcf81a46ce663bab6c52a742dad80ee2cff5cbcda6f1df88568",
+          "size": 4513,
+          "kind": "license"
+        },
+        {
+          "filename": "RhodiumLibre-Regular.ttf",
+          "relative_path": "Rhodium Libre/RhodiumLibre-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rhodium%20Libre/RhodiumLibre-Regular.ttf",
+          "sha256": "d068be8060fd77135bd7c94ee36822d6902aed3bf0d382d8bcdfcbb5ad1b8283",
+          "size": 233792,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Rozha One",
+      "slug": "rozha-one",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Rozha One/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rozha%20One/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        },
+        {
+          "filename": "RozhaOne-Regular.ttf",
+          "relative_path": "Rozha One/RozhaOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Rozha%20One/RozhaOne-Regular.ttf",
+          "sha256": "8491b838c31f30272aa6da67e4749afabab8297db82a055fd2d0aa689f500ee3",
+          "size": 322828,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sahitya",
+      "slug": "sahitya",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sahitya/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sahitya/OFL.txt",
+          "sha256": "9ee6b2ec20a06c599a07412690876eb457bf192c10e886e60d8bdffb80bc21a3",
+          "size": 4403,
+          "kind": "license"
+        },
+        {
+          "filename": "Sahitya-Bold.ttf",
+          "relative_path": "Sahitya/Sahitya-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sahitya/Sahitya-Bold.ttf",
+          "sha256": "9feb27b5d2980b741355bb6240d0f0b44d0f4cfdb15c11980049f4750fcaa88a",
+          "size": 267140,
+          "kind": "font"
+        },
+        {
+          "filename": "Sahitya-Regular.ttf",
+          "relative_path": "Sahitya/Sahitya-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sahitya/Sahitya-Regular.ttf",
+          "sha256": "f43e57c9eb3c936e195009a5755906d34cdffb7e5ac4d0a51d260150f118ee62",
+          "size": 261652,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sarala",
+      "slug": "sarala",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sarala/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarala/OFL.txt",
+          "sha256": "afb8c471158619593df0fb501453bd39fda42396e2cc3911e2a0a471c11b863c",
+          "size": 4451,
+          "kind": "license"
+        },
+        {
+          "filename": "Sarala-Bold.ttf",
+          "relative_path": "Sarala/Sarala-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarala/Sarala-Bold.ttf",
+          "sha256": "b08ccab2a22b3dcfad6a9b88d5b700cb830c7557ae13e9264e61cd6a96ecc268",
+          "size": 239072,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarala-Regular.ttf",
+          "relative_path": "Sarala/Sarala-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarala/Sarala-Regular.ttf",
+          "sha256": "9e7e34335efeaec81e791b76126a3d26a77230bca9e580aa1658ccf72cebce7b",
+          "size": 241592,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sarpanch",
+      "slug": "sarpanch",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sarpanch/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        },
+        {
+          "filename": "Sarpanch-Black.ttf",
+          "relative_path": "Sarpanch/Sarpanch-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-Black.ttf",
+          "sha256": "a1e1f81adb8404de57803bcd42096ec6702bf85bfb9524049f03f26cfcf4f771",
+          "size": 299512,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarpanch-Bold.ttf",
+          "relative_path": "Sarpanch/Sarpanch-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-Bold.ttf",
+          "sha256": "c23f96c15d1d075b339bb7a5ede342591d1389924331464b98584865d88c8ebf",
+          "size": 291920,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarpanch-ExtraBold.ttf",
+          "relative_path": "Sarpanch/Sarpanch-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-ExtraBold.ttf",
+          "sha256": "5ffb125033d467fafd79e8b13dc11fa88c3ce317840d6042afb56d3bb94dc32b",
+          "size": 299108,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarpanch-Medium.ttf",
+          "relative_path": "Sarpanch/Sarpanch-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-Medium.ttf",
+          "sha256": "9f1ab5f1ba96df5a968c5f7f02bbb560b1af1bdd92bba8a33ef09384cc41b7be",
+          "size": 292468,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarpanch-Regular.ttf",
+          "relative_path": "Sarpanch/Sarpanch-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-Regular.ttf",
+          "sha256": "2828287b0825b08c7b2cbba15779fd8b3b85c1907df8b9a987f08848cd6947f4",
+          "size": 290368,
+          "kind": "font"
+        },
+        {
+          "filename": "Sarpanch-SemiBold.ttf",
+          "relative_path": "Sarpanch/Sarpanch-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sarpanch/Sarpanch-SemiBold.ttf",
+          "sha256": "ced773bc2a7597ec1a5145ffce6dfacec076255204cf02f1303907a82c6102f2",
+          "size": 292920,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Shobhika-1.05",
+      "slug": "shobhika-1-05",
+      "files": [
+        {
+          "filename": "Shobhika-Bold.otf",
+          "relative_path": "Shobhika-1.05/Shobhika-Bold.otf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Shobhika-1.05/Shobhika-Bold.otf",
+          "sha256": "107dbfae2a50a45891615b797ab1a446f936e401f81bcb7fa4b937ec9eb31026",
+          "size": 350680,
+          "kind": "font"
+        },
+        {
+          "filename": "Shobhika-Regular.otf",
+          "relative_path": "Shobhika-1.05/Shobhika-Regular.otf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Shobhika-1.05/Shobhika-Regular.otf",
+          "sha256": "bde48974337ea665b930d956c26d0b3884f1bc0549769bfb7d82caa3e0af181f",
+          "size": 368156,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sitara",
+      "slug": "sitara",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sitara/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sitara/OFL.txt",
+          "sha256": "95803fae1b063e592c67b5867f1f36df1df526e5ebf33c6cd4d4afa31a9d5586",
+          "size": 4425,
+          "kind": "license"
+        },
+        {
+          "filename": "Sitara-Bold.ttf",
+          "relative_path": "Sitara/Sitara-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sitara/Sitara-Bold.ttf",
+          "sha256": "6c1062617bde8a8b9156c5c19ec1645b02e15f7ad35680da8ff8b68b71864419",
+          "size": 203196,
+          "kind": "font"
+        },
+        {
+          "filename": "Sitara-BoldItalic.ttf",
+          "relative_path": "Sitara/Sitara-BoldItalic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sitara/Sitara-BoldItalic.ttf",
+          "sha256": "72c75e8437992707246bd3b5340f651ab7335a9c8c3f38d93730e1270f7522c3",
+          "size": 205744,
+          "kind": "font"
+        },
+        {
+          "filename": "Sitara-Italic.ttf",
+          "relative_path": "Sitara/Sitara-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sitara/Sitara-Italic.ttf",
+          "sha256": "fb27328a202750adeb1705e1ebbc10c2633da3334c49933b67fcf053088eef1e",
+          "size": 206340,
+          "kind": "font"
+        },
+        {
+          "filename": "Sitara-Regular.ttf",
+          "relative_path": "Sitara/Sitara-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sitara/Sitara-Regular.ttf",
+          "sha256": "db012b93bc95bb06c3d223165ac852a70a08153891f02dc6d8bbdd2f046245e0",
+          "size": 202652,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sumana",
+      "slug": "sumana",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sumana/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sumana/OFL.txt",
+          "sha256": "c8155eb9337078a9ea9f1e576ac813a03030ca43e2694593e90cd4fee6fce937",
+          "size": 4365,
+          "kind": "license"
+        },
+        {
+          "filename": "Sumana-Bold.ttf",
+          "relative_path": "Sumana/Sumana-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sumana/Sumana-Bold.ttf",
+          "sha256": "e32150c36ced10804d077dc41714df7e5c8471408bccc7036fba30314a914e79",
+          "size": 223880,
+          "kind": "font"
+        },
+        {
+          "filename": "Sumana-Regular.ttf",
+          "relative_path": "Sumana/Sumana-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sumana/Sumana-Regular.ttf",
+          "sha256": "e71be1be55f8970ef24ee3aaf790c34cad3f5b6c5d518e41c8651c596e102ec4",
+          "size": 211548,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Sura",
+      "slug": "sura",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Sura/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sura/OFL.txt",
+          "sha256": "53ad6a474f68ddfc3fe72449de3ede4d3f033b2f24b77833b1d56edf505486d2",
+          "size": 4363,
+          "kind": "license"
+        },
+        {
+          "filename": "Sura-Bold.ttf",
+          "relative_path": "Sura/Sura-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sura/Sura-Bold.ttf",
+          "sha256": "3f05a9ce75f1d8eaf8f2dc57684fc8aa84a81fa72a437583849eeb84f57089eb",
+          "size": 148800,
+          "kind": "font"
+        },
+        {
+          "filename": "Sura-Regular.ttf",
+          "relative_path": "Sura/Sura-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Sura/Sura-Regular.ttf",
+          "sha256": "df35bdf883ef6cda173f3e75e88970a257ae69eaa94b93655451f33b9f960234",
+          "size": 140444,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Teko",
+      "slug": "teko",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Teko/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Teko/OFL.txt",
+          "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065",
+          "size": 4385,
+          "kind": "license"
+        },
+        {
+          "filename": "Teko[wght].ttf",
+          "relative_path": "Teko/Teko[wght].ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Teko/Teko%5Bwght%5D.ttf",
+          "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae",
+          "size": 292108,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Tillana",
+      "slug": "tillana",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Tillana/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/OFL.txt",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+          "size": 4373,
+          "kind": "license"
+        },
+        {
+          "filename": "Tillana-Bold.ttf",
+          "relative_path": "Tillana/Tillana-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/Tillana-Bold.ttf",
+          "sha256": "76c53b8963432418087fa3748d14be25f090fd89cd709f6c14b63679c4c72244",
+          "size": 306716,
+          "kind": "font"
+        },
+        {
+          "filename": "Tillana-ExtraBold.ttf",
+          "relative_path": "Tillana/Tillana-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/Tillana-ExtraBold.ttf",
+          "sha256": "66e96f9cca864969fdf12311cb7157bab60d6c7d9a47d803ff06a40efd7dce25",
+          "size": 304268,
+          "kind": "font"
+        },
+        {
+          "filename": "Tillana-Medium.ttf",
+          "relative_path": "Tillana/Tillana-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/Tillana-Medium.ttf",
+          "sha256": "bff30851742c92d894a358ce788669782aabee95a9f51c39f37f2c2b853f46e8",
+          "size": 328012,
+          "kind": "font"
+        },
+        {
+          "filename": "Tillana-Regular.ttf",
+          "relative_path": "Tillana/Tillana-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/Tillana-Regular.ttf",
+          "sha256": "fd907100fa0c131db999960bb7ac71243e515c330ee16e18f28fa8958bd1811b",
+          "size": 329148,
+          "kind": "font"
+        },
+        {
+          "filename": "Tillana-SemiBold.ttf",
+          "relative_path": "Tillana/Tillana-SemiBold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tillana/Tillana-SemiBold.ttf",
+          "sha256": "8bfe14bc76b8bcb2dd63b92df748e3495af0e7eeee71db4936034e6fed7119c6",
+          "size": 299792,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Tiro Devanagari Hindi",
+      "slug": "tiro-devanagari-hindi",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Tiro Devanagari Hindi/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Hindi/OFL.txt",
+          "sha256": "2ed6051706542c5d6d96480318152b17900bb6d4dbadb11d7d5d6464d8b3e0dd",
+          "size": 4387,
+          "kind": "license"
+        },
+        {
+          "filename": "TiroDevanagariHindi-Italic.ttf",
+          "relative_path": "Tiro Devanagari Hindi/TiroDevanagariHindi-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Hindi/TiroDevanagariHindi-Italic.ttf",
+          "sha256": "eed07aca7291e34fa2c4f3e48be325b261f60516ecf835610fee30dade0f78ec",
+          "size": 425636,
+          "kind": "font"
+        },
+        {
+          "filename": "TiroDevanagariHindi-Regular.ttf",
+          "relative_path": "Tiro Devanagari Hindi/TiroDevanagariHindi-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Hindi/TiroDevanagariHindi-Regular.ttf",
+          "sha256": "d2abcb4d352f0bfab91632df5d9c8173882073c182e662fa731a5a738e6681d7",
+          "size": 423224,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Tiro Devanagari Marathi",
+      "slug": "tiro-devanagari-marathi",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Tiro Devanagari Marathi/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Marathi/OFL.txt",
+          "sha256": "2ed6051706542c5d6d96480318152b17900bb6d4dbadb11d7d5d6464d8b3e0dd",
+          "size": 4387,
+          "kind": "license"
+        },
+        {
+          "filename": "TiroDevanagariMarathi-Italic.ttf",
+          "relative_path": "Tiro Devanagari Marathi/TiroDevanagariMarathi-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Marathi/TiroDevanagariMarathi-Italic.ttf",
+          "sha256": "ffa2383d457e468db75775cf19910a4817c3e250da6cfa28a3c6994954ab7d4c",
+          "size": 441728,
+          "kind": "font"
+        },
+        {
+          "filename": "TiroDevanagariMarathi-Regular.ttf",
+          "relative_path": "Tiro Devanagari Marathi/TiroDevanagariMarathi-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Marathi/TiroDevanagariMarathi-Regular.ttf",
+          "sha256": "8e1d4edf924c0685f1383d0d37aa7c4662103d2e485e53b535b4528af5acd966",
+          "size": 439712,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Tiro Devanagari Sanskrit",
+      "slug": "tiro-devanagari-sanskrit",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Tiro Devanagari Sanskrit/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Sanskrit/OFL.txt",
+          "sha256": "2ed6051706542c5d6d96480318152b17900bb6d4dbadb11d7d5d6464d8b3e0dd",
+          "size": 4387,
+          "kind": "license"
+        },
+        {
+          "filename": "TiroDevanagariSanskrit-Italic.ttf",
+          "relative_path": "Tiro Devanagari Sanskrit/TiroDevanagariSanskrit-Italic.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Sanskrit/TiroDevanagariSanskrit-Italic.ttf",
+          "sha256": "9641914032154ea68a7caed100320cf547d63891a1e3962033ba91dc9c33ac2b",
+          "size": 765048,
+          "kind": "font"
+        },
+        {
+          "filename": "TiroDevanagariSanskrit-Regular.ttf",
+          "relative_path": "Tiro Devanagari Sanskrit/TiroDevanagariSanskrit-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Tiro%20Devanagari%20Sanskrit/TiroDevanagariSanskrit-Regular.ttf",
+          "sha256": "75ae873e5e3f9c30fb962a3d283b9f5e7bc5bca57822a2aa926753b297b150ca",
+          "size": 761856,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Vesper Libre",
+      "slug": "vesper-libre",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Vesper Libre/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Vesper%20Libre/OFL.txt",
+          "sha256": "f3758ee70600ecd5450f01ea373204b202e048d0454c9db2d1175c5a5dd1e92f",
+          "size": 4358,
+          "kind": "license"
+        },
+        {
+          "filename": "VesperLibre-Bold.ttf",
+          "relative_path": "Vesper Libre/VesperLibre-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Vesper%20Libre/VesperLibre-Bold.ttf",
+          "sha256": "11e59ae4fd3d5276573f95cea3e7e2361756817b5029b49f43c66701f81d96f8",
+          "size": 168172,
+          "kind": "font"
+        },
+        {
+          "filename": "VesperLibre-Heavy.ttf",
+          "relative_path": "Vesper Libre/VesperLibre-Heavy.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Vesper%20Libre/VesperLibre-Heavy.ttf",
+          "sha256": "007fb773ea25fe9a62238860ed35797b6bb6f934cb6e1b4ae4a0abf5b8172ffd",
+          "size": 165724,
+          "kind": "font"
+        },
+        {
+          "filename": "VesperLibre-Medium.ttf",
+          "relative_path": "Vesper Libre/VesperLibre-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Vesper%20Libre/VesperLibre-Medium.ttf",
+          "sha256": "46fb5e6b5600f635cbcf279cdc0129980abfc2a769712b1bde716724a200f40a",
+          "size": 168368,
+          "kind": "font"
+        },
+        {
+          "filename": "VesperLibre-Regular.ttf",
+          "relative_path": "Vesper Libre/VesperLibre-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Vesper%20Libre/VesperLibre-Regular.ttf",
+          "sha256": "2be8f243d90685e53bb6d6435985cf4d145d42bf70e3f964026a62c7cd96de1c",
+          "size": 166124,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Yantramanav",
+      "slug": "yantramanav",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Yantramanav/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/OFL.txt",
+          "sha256": "8f2e5a9b52cf355023104413827e17dd7126c5a3656492d45eaa1ceb270aa4f1",
+          "size": 4412,
+          "kind": "license"
+        },
+        {
+          "filename": "Yantramanav-Black.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Black.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Black.ttf",
+          "sha256": "8862dd6dba166ec1060c9fc0159b04c470e7102f3967d1746072bdab98a4d031",
+          "size": 159196,
+          "kind": "font"
+        },
+        {
+          "filename": "Yantramanav-Bold.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Bold.ttf",
+          "sha256": "682ef4ebc9c8dde1f312c435ade5eca9cafea6ab0c3602e1638c02d3759b135d",
+          "size": 158048,
+          "kind": "font"
+        },
+        {
+          "filename": "Yantramanav-Light.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Light.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Light.ttf",
+          "sha256": "aafcbbf2c8a104746ba7f551050e03b4fff8a2094d7ea10adfca3e30bcc15db8",
+          "size": 160820,
+          "kind": "font"
+        },
+        {
+          "filename": "Yantramanav-Medium.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Medium.ttf",
+          "sha256": "8c6287e28f009a687d0616ad5f31e0f8fc513b82df09093ef5bae65dfc216206",
+          "size": 154352,
+          "kind": "font"
+        },
+        {
+          "filename": "Yantramanav-Regular.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Regular.ttf",
+          "sha256": "823dbb5d9c73a2c192371bf73341a30291b5a416578362eb4607b9c5a5be9821",
+          "size": 153872,
+          "kind": "font"
+        },
+        {
+          "filename": "Yantramanav-Thin.ttf",
+          "relative_path": "Yantramanav/Yantramanav-Thin.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yantramanav/Yantramanav-Thin.ttf",
+          "sha256": "6e88e360cd722b123e1426e4d98602790b805def1fb198ece28f3bfcaf168650",
+          "size": 160744,
+          "kind": "font"
+        }
+      ]
+    },
+    {
+      "family": "Yatra One",
+      "slug": "yatra-one",
+      "files": [
+        {
+          "filename": "OFL.txt",
+          "relative_path": "Yatra One/OFL.txt",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yatra%20One/OFL.txt",
+          "sha256": "71e5222c549d85a1403b6e709b4328b81d7b51ba021b8bd20df89550da80c087",
+          "size": 4438,
+          "kind": "license"
+        },
+        {
+          "filename": "YatraOne-Regular.ttf",
+          "relative_path": "Yatra One/YatraOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/nishantaMishra/devanagari-fonts/main/src/devanagari_fonts/fonts/Yatra%20One/YatraOne-Regular.ttf",
+          "sha256": "c47a94a4edf30f4eae0ca1c84777f4b70bc350221b6249de6b64fefdded2d3cd",
+          "size": 276324,
+          "kind": "font"
+        }
+      ]
+    }
+  ]
+}

@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "devanagari-fonts"
-version = "0.1.0"
-description = "Bundled Devanagari font files with a small Python API for discovery and paths."
+version = "0.2.0"
+description = "Devanagari font discovery, preview paths, and on-demand font installation."
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
 authors = [
-  { name = "Nishant Mishrea", email = "nisantamisra00@gmail.com" }
+  { name = "Nishant Mishra", email = "nisantamisra00@gmail.com" }
 ]
 keywords = ["devanagari", "fonts", "typography", "hindi", "marathi", "sanskrit"]
 classifiers = [
@@ -41,8 +41,11 @@ Homepage = "https://github.com/nishantaMishra/devanagari-fonts"
 Repository = "https://github.com/nishantaMishra/devanagari-fonts"
 Issues = "https://github.com/nishantaMishra/devanagari-fonts/issues"
 
+[project.scripts]
+devanagari-fonts = "devanagari_fonts.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-devanagari_fonts = ["fonts/**/*", "py.typed"]
+devanagari_fonts = ["fonts/Shobhika-1.05/*", "registry.json", "py.typed"]
