@@ -4,16 +4,16 @@
 
 ## Installation
 
+Install from PyPI:
+
+```bash
+pip install devanagari-fonts
+```
+
 Install from GitHub:
 
 ```bash
 pip install git+https://github.com/nishantaMishra/devanagari-fonts.git
-```
-
-After the package is published to PyPI, it can be installed with:
-
-```bash
-pip install devanagari-fonts
 ```
 
 ## Usage
